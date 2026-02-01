@@ -26,9 +26,9 @@ public class Main {
         System.out.println("Heavy Drone Assignment: " + res2.ok());
 
         if (res2.ok()) {
-            System.out.println("Estimated Time: " + task.estimateTime()); [cite: 206]
-            dispatcher.completeTask(task); // Завершаем [cite: 205]
-            System.out.println("Final Task State: " + task.getState()); [cite: 206]
+            System.out.println("Estimated Time: " + task.estimateTime()); 
+            dispatcher.completeTask(task); 
+            System.out.println("Final Task State: " + task.getState());
         }
     }
 }
