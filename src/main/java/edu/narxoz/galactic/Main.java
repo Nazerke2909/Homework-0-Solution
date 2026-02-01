@@ -31,7 +31,7 @@ public class Main {
             System.out.println("3. Estimated Delivery Time: " + task.estimateTime() + " minutes");
             Result res3 = dispatcher.completeTask(task);
             System.out.println("4. Task Completion: " + (res3.ok() ? "SUCCESS" : "FAILED"));
-            System.out.println("\n--- Final Statuses ---");
+            System.out.println("Final Statuses");
             System.out.println("Drone Status: " + heavy.getStatus()); 
             System.out.println("Task State: " + task.getState());  
         }
