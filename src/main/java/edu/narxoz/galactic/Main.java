@@ -26,7 +26,7 @@ public class Main {
         System.out.println("   Reason: " + res1.reason());
 
         Result res2 = dispatcher.assignTask(task, heavy);
-        System.out.println("\n2. Assigning 50kg to HeavyDrone: " + (res2.ok() ? "SUCCESS" : "FAILED"));
+        System.out.println("Assigning 50kg to HeavyDrone: " + (res2.ok() ? "SUCCESS" : "FAILED"));
         if (res2.ok()) {
             System.out.println("3. Estimated Delivery Time: " + task.estimateTime() + " minutes");
             Result res3 = dispatcher.completeTask(task);
