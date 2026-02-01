@@ -1,4 +1,4 @@
-package edu.name.galactic.bodies;
+package edu.narxoz.galactic.bodies;
 public class Planet extends CelestialBody {
     private String atmosphereType;
     

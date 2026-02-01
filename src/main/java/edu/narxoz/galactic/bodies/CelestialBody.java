@@ -12,7 +12,7 @@ public abstract class CelestialBody {
     public double getX() {return x;}
     public double getY() {return y;}
     public double distanceTo(CelestialBody other) {
-        if(other==null) throw new IllegalArgumentExeption("Target cannot be null");
+        if(other==null) throw new IllegalArgumentException("Target cannot be null");
         return Math.sqrt(Math.pow(other.x - this.x, 2)+ Math.pow(other.y - this.y, 2));
     }
 }
