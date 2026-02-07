@@ -8,5 +8,8 @@ public class Cargo {
         this.weightKg = weightKg;
         this.description =description;
     }
+    public String getDescription() {
+        return description;
+    }
     public double getWeightKg() {return weightKg;}
 }

@@ -10,6 +10,7 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Galactic Drone Delivery System");
         Planet earth = new Planet("Earth", 0, 0, "Nitrogen-Oxygen");
+        System.out.println("Target planet atmosphere: " + earth.getAtmosphereType());
         SpaceStation iss = new SpaceStation("ISS", 100, 100, 1);
         Cargo bigCargo = new Cargo(50.0, "Building materials");
         DeliveryTask task = new DeliveryTask(earth, iss, bigCargo);
